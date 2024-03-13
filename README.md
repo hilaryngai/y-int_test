@@ -5,7 +5,7 @@ hilaryngai@gmail.com
 230313
 
 Structure of repository
-1) figures
+1) figures:
 	Contains figures printed using the scripts below
 	- Initial_Weights_sectors.png
 		the initial weights used in the two trading strategies implemented for each sector
@@ -16,7 +16,7 @@ Structure of repository
 		NOTE: lowercase letters are replaceable by available sectors or strategies
 			uppercase letters are not replaceable
 		e.g. sector_strat_Change_Allocation.png can stand for the Change in Allocation of ConsumerCyclical[sector] and Markowitz Optimization[strat]
-2) input_data
+2) input_data:
 	Provided by the coding test which includes the following
 	- data_last.csv (ticker time series x last known price)
 		assumption was made that the last known price was the adjusted price
@@ -50,7 +50,7 @@ Structure of repository
 				 Tech = Technology
 			Strategies: EW = Equal Weighted
 				    MO = Markowitz Optimization
-4) scripts
+4) scripts:
   Scripts are to be run in the following order
 	- a_dataprep_all.m
 		Aim: (1) Identifying and cleaning missing values for all data & (2) Compiling all sector's data for subsequent analyses
